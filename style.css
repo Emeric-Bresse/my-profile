@@ -1,0 +1,200 @@
+body { 
+    font-family: "Times New Roman", Times, serif;
+    color: #333; 
+    background-color: #f9f9f9; 
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    text-align: center; 
+}
+
+.container {
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+h1 {
+    color: #1e1e1e; 
+    font-family: serif;
+    font-weight: 100;
+    letter-spacing: 5px;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: #555;
+    font-weight: 600;
+    font-size: 1.8em;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #0073e6; 
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005bb5; 
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 2em;
+}
+
+ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+ul li a {
+    font-weight: bold;
+    color: #333; 
+}
+
+.section {
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 15px; 
+    margin: 20px auto; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+    max-width: 800px; 
+}
+
+img {
+    width: 100px; 
+    height: 100px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    margin-bottom: 15px; 
+    border: 1px;
+}
+
+.linkedIn-container {
+    display: inline-block; 
+    padding: 10px 15px; 
+    border: 2px solid #0073e6; 
+    border-radius: 5px; 
+    background-color: #e7f1ff; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    margin-top: 10px; 
+    transition: background-color 0.3s; 
+}
+
+.linkedIn-container:hover {
+    background-color: #d0e8ff; 
+}
+
+.fa-brands.fa-instagram {
+    color: #E1306C; 
+}
+
+.fa-brands.fa-linkedin {
+    color: #0077B5; 
+}
+
+.fa-brands.fa-facebook {
+    color: #3B5998; 
+}
+
+.fa-brands:hover {
+    opacity: 0.8; 
+}
+
+@media (min-width: 769px) {
+    body {
+        padding: 40px; 
+    }
+
+    h1 {
+        font-size: 3em; 
+    }
+
+    h2 {
+        font-size: 2em; 
+    }
+
+    p {
+        font-size: 1.2em; 
+    }
+
+    ul li {
+        font-size: 2em; 
+    }
+
+    img {
+        width: 120px; 
+        height: 120px; 
+    }
+
+    .linkedIn-container {
+        padding: 12px 20px; 
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em; 
+    }
+
+    h2 {
+        font-size: 1.5em; 
+    }
+
+    p {
+        font-size: 1em; 
+    }
+
+    ul li {
+        font-size: 1.2em; 
+    }
+
+    img {
+        width: 80px; 
+        height: 80px; 
+    }
+
+    .linkedIn-container {
+        padding: 8px 12px; 
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px; 
+    }
+
+    h1 {
+        font-size: 1.5em; 
+    }
+
+    h2 {
+        font-size: 1.3em; 
+    }
+
+    ul li {
+        font-size: 1em; 
+    }
+
+    img {
+        width: 70px; 
+        height: 70px; 
+    }
+
+    .linkedIn-container {
+        padding: 6px 10px; 
+    }
+}
+
+
+
+
